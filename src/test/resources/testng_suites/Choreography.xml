@@ -1,0 +1,10 @@
+<!--DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"-->
+<suite name="Choreography Web" verbose="1" parallel="methods">
+
+	<test name="Web Test">
+		<classes>
+			<class name="com.web.Choreography" />
+		</classes>
+	</test>
+
+</suite>

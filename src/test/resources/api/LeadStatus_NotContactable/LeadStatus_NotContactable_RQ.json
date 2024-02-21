@@ -1,0 +1,7 @@
+{
+    "key": "NOT_CONTACTABLE",
+    "notContactable":{
+        "Comments":"Customer not available",
+        "remark":"not reachable"
+    }
+}

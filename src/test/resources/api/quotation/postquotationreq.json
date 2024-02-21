@@ -1,0 +1,235 @@
+<#if productName == "NGIPOS">
+[{"unitYear": 10,
+"maxYear": 82,
+<#if InsuredAge??>"insuredAge": ${InsuredAge},</#if>
+<#if InsuredGender??>"insuredGender": "${InsuredGender}",</#if>
+<#if OwnerAge??>"ownerAge": ${OwnerAge},</#if>
+<#if OwnerGender??>"ownerGender": "${OwnerGender}",</#if>
+"insuredAge": 18,
+"insuredGender": "F",
+"ownerAge": 18,
+"ownerGender": "M",
+"applicationType": "PHP",
+"planID": "ACPPHP",
+"mode": "Semi-annual",
+"is_existing_member": "N",
+"insuredSuffix": "",
+"insuredFirstName": "SS",
+"insuredLastName": "II",
+"insuredMiddleName": "",
+"ownerSuffix": "",
+"ownerFirstName": "Linka",
+"ownerLastName": "Ada",
+"ownerMiddleName": "",
+"premiumPeriod": 10,
+"basicFA": 4999999.00,
+"medRating": "STD",
+"occRating": "2.50",
+"isMCI": "true",
+"isGSCB": "true",
+"isRB": "true",
+"isPBDD": "false",
+"isVitality": "true",
+"mciCAmount": "1000000.00",
+"mciRating": "STD",
+"gscbCAmount": "2499999.50",
+"gscbRating": "B",
+"rbCAmount": "2499999.50",
+"rbRating": "STD",
+"pbddRating": "",
+"vitalityStatus":["Bronze",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver",
+"Silver"]}]
+</#if>
+
+<#if productName == "End State">
+
+<#if flowTag == "Calculation">
+{
+  "campaignCode": "NEWYEAR24",
+  "planOption": "Plan 1M",
+  "mainInsured": "Yes",
+  "dateOfBirth": 1658739520,
+  "gender": "Male",
+  "dependents": [
+    {
+      "relationship": "Spouse",
+      "dateOfBirth": 1658739520,
+      "gender": "Male",
+      "dependentKey": "Dependent 1"
+    },
+    {
+      "relationship": "Spouse",
+      "dateOfBirth": 1658739520,
+      "gender": "Male",
+      "dependentKey": "Dependent 1"
+    }
+  ]
+}
+</#if>
+
+
+<#if flowTag == "Remitance">
+{
+  "transactionDate": 1658739520,
+  "sourceOfchannel": "Banko",
+  "policyNumber": "567890",
+  "transactionAmount": -63683086.744814776,
+  "paymentMode": "3",
+  "checkNumber": -98194172.8833517,
+  "bankName": "Banco",
+  "transactionTime": "Banco",
+  "paymentChannel": "4",
+  "branchCode": 54222769.54622421,
+  "ecCode": "2"
+}
+</#if>
+
+
+<#if flowTag == "Enrollment">
+{
+  "rcvdDate": 1658739520,
+  "policyNumber": "PAL2354566",
+  "applicationDate": 1658739520,
+  "effectiveDate": 1658739520,
+  "endDate": 1658739520,
+  "modeOfPayment": "Yearly",
+  "campaignCode": "minim ullamco non commodo labore",
+  "tC": true,
+  "healthDeclaration": true,
+  "exemption": true,
+  "policyEffectiveDate": 1658739520,
+  "agentRemarks": "Sam",
+  "agentName": "Remarks",
+  "agentCode": "esse laborum nostrud",
+  "referrerCode": "REF0003",
+  "mainInsuredDetails": {
+    "firstName": "Jose",
+    "middleName": "Bello",
+    "lastName": "Mario",
+    "suffix": "Junior",
+    "dateOfBirth": 1658739520,
+    "gender": "Male",
+    "placeOfBirth": "Bangalore",
+    "civilStatus": "Single",
+    "nationality": "Filipino",
+    "hierarchyOfBene": "incididunt mollit",
+    "occupation": "Corporate Employee",
+    "idType": "Passport",
+    "idNumber": "Corporate Employee",
+    "idExpiryDate": 1658739520,
+    "mobileNumber": "99XXXXXXXX",
+    "emailAddress": "example@aia.com",
+    "address": {
+      "addressType": "elit",
+      "addressLine1": "mollit sunt aute proident commodo",
+      "addressLine2": "aliquip ipsum",
+      "district": "tempor do anim dolor",
+      "city": "Lorem id",
+      "province": "occaecat culpa fugiat laborum",
+      "zipcode": "in incididunt"
+    }
+  },
+  "dependents": [
+    {
+      "relationship": "Spouse",
+      "firstName": "Jose",
+      "middleName": "Bello",
+      "lastName": "Mario",
+      "suffix": "Junior",
+      "dateOfBirth": 1658739520,
+      "gender": "Male"
+    },
+    {
+      "relationship": "Spouse",
+      "firstName": "Jose",
+      "middleName": "Bello",
+      "lastName": "Mario",
+      "suffix": "Junior",
+      "dateOfBirth": 1658739520,
+      "gender": "Male"
+    }
+  ]
+}
+</#if>
+
+</#if>

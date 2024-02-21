@@ -1,0 +1,33 @@
+{
+    "key": "NOTE",
+    "note": {
+        "noteId": 3,
+        "title": "Meeting with khamoshi5 Customer",
+        "date": "25-11-2023",
+        "remark": "meeting",
+        "status": "active",
+        "createdAt": "",
+        "updatedAt": ""
+    },
+    "email": "${EmailID}",
+    "phone": "${MobileNo}",
+    "countryCode": "+91",
+    "address": [
+        {
+            "city": "${City}",
+            "type": "${AddressType}",
+            "state": "${State}",
+            "zipCode": "${PinCode}",
+            "cityCode": "${CityCode}",
+            "landmark": "${Landmark}",
+            "locality1": "${Locality1}",
+            "locality2": "${Locality2}",
+            "locality3": "${Locality3}",
+            "stateCode": "${StateCode}",
+            "countryCode": "${CountryCode}",
+            "nationality": "${Nationality}",
+            "currentSameAsPermanent": true
+        }
+    ],
+    "value": true
+}

@@ -1,0 +1,9 @@
+{
+    "key": "NOTE",
+    "note":{
+        "noteId":1,
+        "title":"Meeting with BOB Customer",
+        "date":"${Date}",
+        "remark":"meeting"
+    }
+}

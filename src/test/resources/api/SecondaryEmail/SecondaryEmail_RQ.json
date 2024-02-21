@@ -1,0 +1,4 @@
+{
+    "key": "SECONDARY_EMAIL",
+    "email":"${EmailID}"
+}

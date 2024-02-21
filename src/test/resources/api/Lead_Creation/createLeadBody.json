@@ -1,0 +1,23 @@
+{
+    "lead": {
+        "channel": "Agency",
+        "prospect": [
+            {
+                "role": "INSURED",
+                "customer": {
+                    "firstName": "${firstName}",
+                    "middleName": "${middleName}",
+                    "lastName": "${lastName}",
+                    "gender": "${Gender}",
+                    "contacts": []
+                }
+            }
+        ],
+        "additionalInfo": {
+            "leadApiSource": "Siddhi 2.0"
+        },
+        "agent": {
+            "agentCode": "6352499"
+        }
+    }
+}

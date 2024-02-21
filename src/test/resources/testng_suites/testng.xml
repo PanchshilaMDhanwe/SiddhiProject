@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="JiraTest" parallel="none" thread-count="1">
+    <parameter name="suiteOwner" value="qpsdemo" />
+    <parameter name="zafira_project" value="UNKNOWN" />
+     <listeners>
+        <listener class-name="com.listner.TestListner" />
+    </listeners> 
+    <test name="JiraIntegrationTest" parallel="none" thread-count="1">
+        <classes>
+            <class name="com.web.JiraTest" />
+        </classes>
+    </test>
+</suite>
+

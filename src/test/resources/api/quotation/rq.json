@@ -1,0 +1,53 @@
+{
+	"quotation": {	
+		 <#if channel??>"channel": "${channel}",</#if>
+    <#if pid??>"pid": "${pid}",</#if>
+		"proposers": [
+			{
+				<#if proposerTitle??>"title": "${proposerTitle}"</#if>
+				<#if proposerFullName??>,"fullName": "${proposerFullName}"</#if>
+				<#if proposerDob??>,"dob": "${proposerDob}T12:00:00Z"</#if>
+				<#if proposerGender??>,"gender": "${proposerGender}"</#if>
+				<#if proposerSmoker??>,"smoker": "${proposerSmoker}"</#if>
+				<#if proposerOccClass??>,"occClass": "${proposerOccClass}"</#if>
+				 <#if proposerOccupation??>,"occupation": "${proposerOccupation}"</#if>
+			}
+		],
+			"insureds": [
+			{
+				<#if insuredTitle??>"title": "${insuredTitle}"</#if>
+				<#if insuredFullName??>,"fullName": "${insuredFullName}"</#if>
+				<#if insuredDob??>,"dob": "${insuredDob}T12:00:00Z"</#if>
+				<#if insuredGender??>,"gender": "${insuredGender}"</#if>
+				<#if insuredSmoker??>,"smoker": "${insuredSmoker}"</#if>
+				<#if insuredOccClass??>,"occClass": "${insuredOccClass}"</#if>
+				<#if insuredRelation??>,"relationship":"${insuredRelation}"</#if>
+				 <#if insuredOccupation??>,"occupation": "${insuredOccupation}"</#if>
+			}
+		],
+		"basicInfo": {
+			 <#if currency??>"currency": "${currency}"</#if> 
+          <#if paymentMode??>,"paymentMode": "${paymentMode}"</#if> 
+          <#if proposeDT??>,"proposeDT": "${proposeDT}"</#if>
+		},
+		"plans": [
+			{
+				<#if basicpid??>"pid": "${basicpid}"</#if>
+				<#if basicpremiumTerm??>,"premiumTerm": "${basicpremiumTerm}"</#if>
+				<#if basicsumAssured??>,"sumAssured": ${basicsumAssured}</#if>
+			}
+		],
+		"eVersion": 1,
+    "templates": {
+      "quote": {
+        "id": "QUOTE",
+        "version": 1
+      }
+    },
+    "agent": {
+      "agentCode": "advisor01",
+      "fullName": "Advisor 01"
+    }
+		
+}
+}

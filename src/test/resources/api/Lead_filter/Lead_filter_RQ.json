@@ -1,0 +1,15 @@
+{
+    "leadFilter": {
+        "key": ["createdAt","source"],
+        "data": {
+            "to": "${ToDate}",
+            "from": "${FromDate}",
+            "data": [
+                "Referral"
+            ]
+        },
+        "agent": {
+            "agentCode": "6352500"
+        }
+    }
+}
