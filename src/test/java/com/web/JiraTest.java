@@ -1,19 +1,12 @@
 package com.web;
-
-
-
 import java.util.HashMap;
-
 import org.testng.annotations.Test;
-
 import com.common.utils.CommonUtilities;
-
 import com.jira.pages.HomePage;
 import com.jira.pages.SearchPage;
 import com.jira.utils.JiraPolicy;
 import com.listner.CreateDefectReadData;
 import com.listner.TestListner;
-
 import com.zebrunner.carina.core.IAbstractTest;
 import com.zebrunner.carina.dataprovider.IAbstractDataProvider;
 import com.zebrunner.carina.dataprovider.annotations.XlsDataSourceParameters;
